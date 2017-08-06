@@ -1,1 +1,0 @@
-# rosieswj.github.io
