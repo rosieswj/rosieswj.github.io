@@ -1,6 +1,7 @@
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 */
 
+
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,600|Crimson+Text');
 /*
 font-family: 'Crimson Text', serif;
@@ -15,13 +16,14 @@ html {
 	
 }
 
-*, *:before, *:after {
-
+body, body:before, body:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Crimson Text', serif !important;
 }
+
+
 /*
 #h2name {
 	font-family: 'Crimson Text', serif !important;
@@ -184,7 +186,7 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 /*===== main ===*/
 
 main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { 
-	padding-bottom:90px}
+	padding-bottom:20px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ 
 	padding-right: 10%;
@@ -214,15 +216,15 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="ma
 
 /*===== footer ===*/
 
-footer[role="footer"]{ background-color:#FFF; padding-top:40px; padding-bottom:77px}
+footer[role="footer"]{ background-color:#FFF; padding-top:20px; padding-bottom:77px}
 
 footer[role="footer"] > h1 a{ margin: auto ; display:block; max-width:3em;}
 
-footer[role="footer"] nav{ padding-top:8px; padding-bottom:30px}
+footer[role="footer"] nav{ padding-top:0px; padding-bottom:25px}
 
 footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
-footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 13px}
+footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 12px}
 
 footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
 
@@ -230,13 +232,13 @@ footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#ee9f9d
 
 footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:center; padding-bottom:40px;}
 
-footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 6.5px}
+footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 10px}
 
 footer[role="footer"] ul[role="social-icons"] > li > a { display:block; width:42px; height:42px;
- background-color:#bbbbbb; color:#FFF; line-height:42px; font-size:20px; border-radius:100%; 
+ background-color:#bbbbbb; color:#fff; line-height:42px; font-size:20px; border-radius:100%; 
  text-align:center}
 
-footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#fff}
+footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#ee9f9d}
 
 footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1.2em; 
 	line-height:13px; color:#9c9c9c}
@@ -339,7 +341,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 .contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; 
 	letter-spacing:px; background-color:#d65662; margin:41px auto; margin-bottom:0}
 
-.contat-from-wrapper input[type="submit"]:hover{background-color:#f8524e}
+.contat-from-wrapper input[type="submit"]:hover{background-color:#888888}
 
 /*== Work Details ==*/
 
