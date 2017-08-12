@@ -290,18 +290,18 @@ article[role="pge-title-content"].blog-header{ padding-bottom:218px}
 
 section.blog-content{ margin-bottom:29px}
 
-section.blog-content figure{ overflow:hidden; position:relative;background-color: 
-	rgba(255,255,255,0.4); cursor:pointer}
+section.blog-content figure{ overflow:hidden; position:relative; background-color: 
+	rgba(255,255,255,0.4); cursor:pointer; }
 
 section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:800; 
-	font-size:14px; line-height:18px; text-transform:uppercase; display:block; 
+	font-size:18px; line-height:25px; text-transform:uppercase; display:block; 
 	background-color:#ee9f9d; width:130px; height:130px; position:absolute; 
 	left:0; top:0; padding-top:41px; z-index:50}
 
 section.blog-content figure .post-date span{ font-size:30px; line-height:35px; display:block}
 
-section.blog-content article{ font-size:21px; line-height:30px; color:#FFF; 
- font-weight:800; color:#343434; padding-left:42px; padding-top:33px; padding-bottom:31px;}
+section.blog-content article{ text-align: center; font-size:21px; line-height:30px; color:#464646;
+ font-weight:800;  padding-top:30px; padding-bottom:30px;}
 
 section.blog-content:hover figure img{ opacity:0.5}
 
