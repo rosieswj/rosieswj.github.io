@@ -41,8 +41,5 @@ map.mapTypes.set('Styled', styledMapType);
 
 }
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW2JRHKOz2pd417ub6CgqB62ktpRI5lZo&callback=initMap"
-        type="text/javascript"></script>
-
 
 
