@@ -149,7 +149,8 @@ header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-
 header[role="header"] nav #menu-button {
 	width: 30px;
 	font-size: 0;
-	float: left; height: 25px;
+	float: left; 
+	height: 25px;
 	position: relative; 
 	z-index:70;
 	margin: 23px 1% 0 7%;
@@ -197,17 +198,17 @@ main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ 
 	padding-bottom:10px; 
-	padding-top:30%}
+	padding-top:20%}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ 
 	font-size: 1em; 
-	line-height:1em; 
+	line-height:4.5em; 
 	color:#404040; 
 	font-weight:400;}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ 
 	display:block; 
-	font-size:35px; 
+	font-size:100px; 
 	color:#ee9f9d; 
 }
 
