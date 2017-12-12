@@ -18,7 +18,8 @@
 
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-top:0}
 
-	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{font-size:34px}
+	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{
+		font-size:34px; }
 
 	main[role="main-home-wrapper"] article p br{ display:none}
 
@@ -64,7 +65,8 @@
 
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:47px}
 
-	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ font-size: 40px;}
+	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ 
+		font-size: 60px; 	line-height:10px; }
 
 	main[role="main-home-wrapper"] article{ padding-bottom:30px}
 
