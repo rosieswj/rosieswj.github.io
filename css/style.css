@@ -224,7 +224,7 @@ footer[role="footer"]{ background-color:#FFF; padding-top:50px; padding-bottom:2
 
 footer[role="footer"] > h1 a{ margin: auto ; display:block; max-width:5em;}
 
-footer[role="footer"] nav{ padding-top:0px; padding-bottom:25px}
+footer[role="footer"] nav{ padding-top:0px; padding-bottom:20px}
 
 footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
@@ -304,8 +304,8 @@ section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weig
 
 section.blog-content figure .post-date span{ font-size:30px; line-height:35px; display:block}
 
-section.blog-content article{ text-align: center; font-size:21px; line-height:30px; color:#A59898;
- font-weight:800;  padding-top:30px; padding-bottom:30px; background-color: #FFEBEB;}
+section.blog-content article{ text-align: center; font-size:18px; line-height:25px; color:#A59898;
+ font-weight:500; padding: 20px; background-color: #EDEDED;}
 
 section.blog-content:hover figure img{ opacity:0.5}
 
@@ -349,23 +349,25 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 
 /*== Work Details ==*/
 
-.work-details,.blog-details{ padding:0 69px; margin-top:73px}
+.work-details,.blog-details{ padding:0 69px; margin-top:0px}
 
-.work-details header h2{ color:#343434; font-size:36px; font-weight:800}
+.work-details header h2{ color:#666666; font-size:36px; font-weight:400; text-align:center;}
 
 .work-details header a{ display:inline-block; color:#ee9f9d; font-size:18px;font-weight:800;padding-top:3px}
 
 .work-details header a i{ color:#0d0d0d; padding-left:10px}
 
+.work-details header p{ padding: 0 10% 0 10%;  margin-top:20px;}
+
 .work-details header a:hover{ color:#0d0d0d; text-decoration:none}
 
 .work-details header a:hover i{ color:#ee9f9d}
 
-.work-details p{ font-size:16px; color:#666666; line-height:30px; margin-bottom:20px; font-weight:300}
+.work-details p{font-size:16px; color:#666666; line-height:25px; font-weight:300}
 
 .work-details p strong{ font-weight:800}
 
-.work-images{ margin-top:46px}
+.work-images{ margin-top:20px}
 
 .work-images li{ margin-bottom:50px}
 
