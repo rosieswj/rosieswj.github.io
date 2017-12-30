@@ -351,7 +351,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 
 .work-details,.blog-details{ padding:0 69px; margin-top:0px}
 
-.work-details header h2{ color:#666666; font-size:36px; font-weight:400; text-align:center;}
+.work-details header h2{ color:#666666; font-size:36px; font-weight:400; text-align:left;}
 
 .work-details header a{ display:inline-block; color:#ee9f9d; font-size:18px;font-weight:800;padding-top:3px}
 
