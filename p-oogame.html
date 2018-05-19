@@ -10,7 +10,7 @@
         <meta name="description" content="Rosie Sun - Carngie Mellon University">
         <meta name="author" content="Rosie Sun">
 
-        <title>IOT Privacy Assistant | Rosie Sun</title>
+        <title>Object-oriented Game Design | Rosie Sun</title>
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
         <!-- style -->
@@ -23,7 +23,7 @@
 
         <!-- font-awesome -->
 
-       <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,600|Crimson+Text" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato" rel="stylesheet">
         <link href="css/effects/set2.css" rel="stylesheet" type="text/css">
@@ -52,8 +52,7 @@
                         <li><a href="contact.html" title="Contact">Contact</a></li>
                     </ul>
                 </nav>
-            </footer>
-
+        </footer>
 
 
 
@@ -75,9 +74,8 @@
 
                             	<header role="work-title">
 
-                                <h2>UI Design: IOT Privacy Assistant</h2>
-
-                                 <i><a class="fa fa-external-link" aria-hidden="true" href="https://privacyassistant.org/" target="_blank"> Visit Project Website </i></a>
+                                	<h2>Object-oriented Board Game Design</h2>
+                                    <a>For more details, <br>please request by email</a>
 
                                 </header>
 
@@ -86,18 +84,24 @@
                             <div class="col-xs-12 col-sm-12 col-md-8">
 
                             	<section>
-                                    <i><p><strong>Role</strong> - 
-                                    Web / Mobile Development, Branding, UX / UI Design</p></i>
+                                    <p><strong>Role</strong> - 
+                                    Object-oriented design and implementation, GUI implementation, unit-testing</p>
 
-                                	<p>Started in Spring 2017, I work for the Internet of Thing (IOT) Privacy Assistant project at the Institute of Software Research at Carnegie Mellon University. In this project, we use aggregated data to detect user's privacy preferences and help them manage privacy settings. </p>
+                                	<p>By designing and implementing a tile-based board game (Carcassonne), I was able to go through the comprehensive process including object-oriented analysis, object-oriented design, and implementation.
+                                    </p>
 
-                                    <p>The IOT assistant has both web and mobile interface. As a graphic designer, I have designed both icons for both UI interfaces. We are currently working on implementing the mobile interface, and I'm looking forward to get to know more of the back-end side of this project. </p>
+                                    <p>I started my design process by defining the problem domain and conceptualizing the real-world objects. Some of the object-oriented analysis I've done include: domain model, system sequence diagram,  system’s behavioral contract, object-level interaction diagrams, and the object model. </p> 
 
-                                   
+                                    <p>For the second part of the project, I implemented the core features of the Carcassonne game. I also completed a test suite with JUnit to test the core implementation. The line coverage is about 95% with 100% method coverage. </p>
+
+                                    <p>Finally, I included a graphical user interface (GUI) that allow multiple players to be registered to play the game. I used the JavaSwing framework for graphical visualization. </p>
+
+                                    <p>In my game design, I incorporated multiple design patterns to achieve the goals of low-coupling, low Representational gap, high cohesion, and information hiding:<br><br>
+                                    - Decorator pattern is applied to constructing objects that share some invariant parts of the algorithm. This enables code reuse and avoids code duplication. At the same time, decorator pattern allows fuctionalities to be dynamically added to objects. <br>
+                                    - Strategy pattern is used to for scoring strategies in the game. Due to the complexity of the game, we need various scroing rules to be applied to different features. This design pattern makes new algorithm to be easily extendable, and separates algorithm between different components in the game.<br>
+                                    - Observer pattern is used between GUI and the core implementation to communicate information from the core(Model) to the GUI (View). I defined a small interface of how observers would receive notifications from the model (GameChangeListener). This reduces the coupling between GUI and the core implementation of the game.<br> </p>
 
                                 </section>
-
-                            
 
                             </div>
 
@@ -111,15 +115,11 @@
 
                             <ul class="grid-lod effect-2" id="grid">
 
-                                <li><img src="images/work/iot-1.png" alt="" class="img-responsive"/></li>
-
-                                <li><img src="images/work/iot-2.png" alt="" class="img-responsive"/></li>
+                                <li><img src="images/project/car.png" alt="" class="img-responsive" /></li>
 
                             </ul>
 
                         </div>
-
-                        
 
                     </div>
 
@@ -132,7 +132,8 @@
         </main>
 
     	<!-- main -->
-        <footer role="footer">
+
+       <footer role="footer">
             <ul role="social-icons">
                 <li><a href="http://www.github.com/rosieswj" target="_blank"><i class="fa fa-git" aria-hidden="true"></i></a></li>
                 <li><a href="http://www.linkedin.com/in/rosiesun" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -142,8 +143,8 @@
 
             <p class="copy-right">&copy; Rosie Sun </p>
         </footer>
-
         <!-- footer -->
+
     
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
