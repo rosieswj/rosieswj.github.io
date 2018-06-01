@@ -1,7 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Cabin|Nunito+Sans|Oxygen');
+/*@import url('https://fonts.googleapis.com/css?family=Cabin|Nunito+Sans|Oxygen');*/
 /*@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,600|Crimson+Text');
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Crimson+Text|Frank+Ruhl+Libre');
+
 
 /*
 font-family: 'Crimson Text', serif;
@@ -23,7 +25,11 @@ body, body:before, body:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: 'Nunito Sans', sans-serif !important;
+	/*font-family: 'Roboto Condensed', sans-serif !important;*/
+	font-family: Frank Ruhl Libre, serif !important;
+
+
+	/*font-family: 'Nunito Sans', sans-serif !important;*/
 }
 
 
@@ -202,13 +208,13 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[rol
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ 
 	font-size: 1em; 
-	line-height:4.5em; 
+	line-height:2em; 
 	color:#404040; 
 	font-weight:400;}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ 
 	display:block; 
-	font-size:100px; 
+	font-size:60px; 
 	color:#E5B5B5; 
 }
 
