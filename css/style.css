@@ -25,9 +25,7 @@ body, body:before, body:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	/*font-family: 'Roboto Condensed', sans-serif !important;*/
-	font-family: Frank Ruhl Libre, serif !important;
-	/*font-family: 'Crimson Text', serif !important;*/
+	font-family: 'Roboto Condensed', sans-serif !important;
 	/*font-family: 'Nunito Sans', sans-serif !important;*/
 }
 
@@ -263,7 +261,7 @@ main[role="main-inner-wrapper"] .about-content p{ font-size:15px; line-height:30
 
 main[role="main-inner-wrapper"] .about-content p a { color: #dd2a49;}
 
-main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#ee9f9d; color: #fff; text-decoration: none;}
+main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#c5b4b3; color: #fff; text-decoration: none;}
 
 main[role="main-inner-wrapper"] .about-content ul{ font-size:17px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
 
@@ -278,7 +276,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-i
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ 
 
-	position:absolute; bottom:-50%; left:0; right:0; background-color:#ee9f9d; margin:0 69px; 
+	position:absolute; bottom:-50%; left:0; right:0; background-color:#c5b4b3; margin:0 69px; 
 	text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ 
@@ -287,7 +285,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ 
 	text-transform:uppercase; font-size:13px; line-height:14px; font-weight:bold}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#ee9f9d; color:#FFF}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#c5b4b3; color:#FFF}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.blog-content:hover figure img{-webkit-transform: scale3d(1.08,1.08,2);transform: scale3d(1.08,1.08,2); opacity:0.5}
 
@@ -302,15 +300,15 @@ section.blog-content{ margin-bottom:29px}
 section.blog-content figure{ overflow:hidden; position:relative; background-color: 
 	rgba(255,255,255,0.4); cursor:pointer; }
 
-section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:800; 
+section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:500; 
 	font-size:18px; line-height:25px; text-transform:uppercase; display:block; 
-	background-color:#ee9f9d; width:130px; position:absolute; 
-	left:0; top:0; padding-top:6%; padding-bottom:6%; z-index:50}
+	background-color:#d9d4d4; width:100px; position:absolute; 
+	left:0; top:0; padding-top:4%; padding-bottom:4%; z-index:50}
 
 section.blog-content figure .post-date span{ font-size:30px; line-height:35px; display:block}
 
 section.blog-content article{ text-align: center; font-size:18px; line-height:25px; color:#A59898;
- font-weight:500; padding: 20px; background-color: #EDEDED;}
+ font-weight:500; padding: 20px; background-color: #d9d4d4;}
 
 section.blog-content:hover figure img{ opacity:0.5}
 
@@ -354,21 +352,21 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 
 /*== Work Details ==*/
 
-.work-details,.blog-details{ padding:0 69px; margin-top:0px}
+.work-details,.blog-details{ padding:0 50px; margin-top:0px}
 
-.work-details header h2{ color:#666666; font-size:36px; font-weight:400; text-align:left;}
+.work-details header h2{ color:#666666; font-size:27px; padding-top:60px;font-weight:400; text-align:left;}
 
-.work-details header a{ display:inline-block; color:#ee9f9d; font-size:18px;font-weight:800;padding-top:3px}
+.work-details header a{ display:block; color:#ee9f9d; font-size:15px;font-weight:400;padding-top:3px}
 
-.work-details header a i{ color:#0d0d0d; padding-left:10px}
+.work-details header a i{ color:#0d0d0d; padding-left:10px; }
 
-.work-details header p{ padding: 0 10% 0 10%;  margin-top:20px;}
+.work-details header p{ padding: 0 10% 0 10%;  margin-top:20px; }
 
 .work-details header a:hover{ color:#0d0d0d; text-decoration:none}
 
 .work-details header a:hover i{ color:#ee9f9d}
 
-.work-details p{font-size:16px; color:#666666; line-height:25px; font-weight:300}
+.work-details p{font-size:16px; color:#afa8a8; line-height:25px; font-weight:300}
 
 .work-details p strong{ font-weight:800}
 
@@ -380,14 +378,14 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 
 .bog-header { padding-bottom:30px}
 
-.bog-header h3,.comments-pan h3,.commentys-form h4{ color:#404040;font-weight:800; 
+.bog-header h3,.comments-pan h3,.commentys-form h4{ color:#bfafaf;font-weight:400; 
 	padding-bottom:24px; display:block}
 
 .bog-header h2 span{ color:#ee9f9d}
 
 .bog-header h2{ font-size:36px; font-weight:normal}
 
-.blog-details .enter-content{ margin-top:50px}
+.blog-details .enter-content{ margin-top:60px}
 
 .blog-details .enter-content p{ font-size:16px; line-height:30px; 
 	font-weight:300; margin-bottom:23px}

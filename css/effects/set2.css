@@ -168,6 +168,7 @@ figure.effect-oscar {
 	/*background: linear-gradient( 150deg, #ffc8c7 0%,#b94654 40%,#6f2a32 100%);*/
 
 	background-color: #e9c8ca;
+
 }
 
 
@@ -268,7 +269,10 @@ figure.effect-oscar:hover p {
 
 
 figure.effect-oscar:hover figcaption {
-	background-color: rgba(199, 112, 122, 0.5);
+	/*background-color:#b7b6b6;*/
+	/*background-color: rgba(199, 112, 122, 0.1);*/
+	background-color: rgba(193, 180, 180, 0.8);
+
 }
 
 figure.effect-oscar:hover .post-date {
