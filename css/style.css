@@ -196,12 +196,11 @@ main[role="main-home-wrapper"],main[role="main-inner-wrapper"] {
 	padding-bottom:20px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ 
-	padding-right: 10%;
-	text-align: right;}
+	padding-left: 0; 
+	text-align: left;}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ 
-	padding-bottom:10px; 
-	padding-top:20%}
+	padding-bottom:5px; }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ 
 	font-size: 1em; 
@@ -257,13 +256,13 @@ footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1
 main[role="main-inner-wrapper"] .about-content{ background-color:rgba(238, 159, 157, 0.09) ; 
 	padding-top:20px; padding-left:40px; padding-right:40px; padding-bottom:20px}
 
-main[role="main-inner-wrapper"] .about-content p{ font-size:15px; line-height:30px; color:rgb(150, 132, 130); padding-bottom:20px}
+main[role="main-inner-wrapper"] .about-content p{ font-size:16px; line-height:30px; color:rgb(150, 132, 130); padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content p a { color: #dd2a49;}
 
 main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#c5b4b3; color: #fff; text-decoration: none;}
 
-main[role="main-inner-wrapper"] .about-content ul{ font-size:17px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
+main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content li{ margin: 8px; }
 
