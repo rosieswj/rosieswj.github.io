@@ -30,11 +30,6 @@ body, body:before, body:after {
 }
 
 
-/*
-#h2name {
-	font-family: 'Crimson Text', serif !important;
-}*/
-
 
 input, textarea {
 
@@ -214,6 +209,13 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
 	color:#E5B5B5; 
 }
 
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h3 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h3 span{ 
+	display:block; 
+	font-size:40px; 
+	color:#E5B5B5; 
+	font-weight:300;
+}
+
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ 
 	font-size:1.1em; 
 	line-height:0.6em; 
@@ -265,6 +267,19 @@ main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#c5b
 main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content li{ margin: 8px; }
+
+main[role="main-inner-wrapper"] .project-content{ /*background-color:rgba(238, 159, 157, 0.09) ; */
+	/*padding-left:40px;*/ /*padding-right:40px;*/ padding-bottom:20px}
+
+main[role="main-inner-wrapper"] .project-content p{ font-size:16px; line-height:30px; color:rgb(150, 132, 130); padding-bottom:20px}
+
+main[role="main-inner-wrapper"] .project-content p a { color: #dd2a49;}
+
+main[role="main-inner-wrapper"] .project-content p a:hover { background-color:#c5b4b3; color: #fff; text-decoration: none;}
+
+main[role="main-inner-wrapper"] .project-content ul{ font-size:16px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
+
+main[role="main-inner-wrapper"] .project-content li{ margin: 8px; }
 
 main[role="main-inner-wrapper"] .thumbnails-pan{padding-top:50px}
 
