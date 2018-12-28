@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+
+ <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta charset="utf-8">
+
+        <meta name="description" content="Rosie Sun - Carngie Mellon University">
+        <meta name="author" content="Rosie Sun">
+
+        <title>Chrome Privacy Check-up | Rosie Sun </title>
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+          <!-- style -->
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+
+        <!-- font-awesome -->
+
+       <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato" rel="stylesheet">
+        <link href="../css/effects/set2.css" rel="stylesheet" type="text/css">
+        <link href="../css/effects/normalize.css" rel="stylesheet" type="text/css">
+        <link href="../css/effects/component.css"  rel="stylesheet" type="text/css" >
+    </head>
+
+
+
+    <body>
+        <footer role="footer">
+            <h1>
+                <a href="../index.html" title="Rosie Sun"><img src="../images/logo.png" title="Rosie" alt="Rosie Sun" style="width: 100%" /></a>
+            </h1>
+           <nav role="footer-nav" class="footer">
+                <ul>
+                    <li><a href="../about.html" title="About">About</a></li>
+                    <li><a href="../coding.html" title="Coding">Coding</a></li>
+                    <li><a href="../design.html" title="Design">Design</a></li>
+                    <li><a href="../contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <main role="main-inner-wrapper" class="container">
+            <section class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></section> 
+            <section class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <article role="pge-title-content" >
+                    <header>
+                        <h3><span id="name">Chrome NewTab Privacy Check-up</span></h3>
+                    </header>
+                </article>
+                <article class="project-content">
+                    <section>
+                        <p> <i><b>Skills:</b> User Research, Web Design, Front-end Development, UI Testing 
+                            <br>
+                            <b>Time Span:</b> May - September 2018
+                            <br>
+                            <b>Team:</b> <a href="https://gumbel.in/index.html" target="_blank">Gus </a>[He is the best:) Please check him out!] </i>
+                        </p>
+
+                        
+                        <h2>Overview</h2>
+                        <p>In summer 2018, I worked as a research intern at the Human-Computer Interaction Institute at Carnegie Mellon University with Professor Jason Hong and Professor Laura Dabbish. I also worked closely with Cori Faklaris and Gustavo Umbelino. I was able to experience the entire research process, including previous literature, building tools, designing experiments, conducting interviews, and analyzing data. </p>
+                        <h2>Problem</h2>
+                        <p>Recently, we observe raising public awareness of protecting personal data on social media platforms such as Facebook. However, it’s really hard for the public to know what are good Facebook settings to have. It’s even harder to find the right place to change these settings. During interviews, we found that a lot of Facebook users don't even check out or change their privacy settings once.</p>
+                        <img src="../images/coding/nt/nt2.png" alt="" class="img-responsive"/>           
+                        <h2>Opportunity</h2>
+                        <p>People see the new tab in their Chrome browser many times per day. This gives us an opportunity to influence people’s behaviors with respect to privacy and security, by showing relevant information about. Thus, we wonder <b>what if we can use Chrome NewTab to design a new tool that helps people manage their Facebook privacy settings?</b>
+                            <br>
+                        In our background research, we also found studies that suggest <b>social influence can help improve security and privacy behaviors online</b>. This made us think of collecting preferences for Facebook and incorporating crowdsourcing to help people configure their privacy profiles. </p>
+
+                        <h2>Design </h2>
+                        <img src="../images/coding/nt/ntmain.png" alt="" class="img-responsive"/>
+
+
+                        <h2>Implementation</h2>
+                        <img src="../images/coding/nt/nt4.png" alt="" class="img-responsive"/>
+                        <h4>Chrome Extension</h4>
+                        <p>The Chrome Extension is implemented in Javascript. For each chrome user, we create a global unique id whenever an extension is installed </p>
+
+                        <h4>Database</h4>
+                        <p>We use MongoDB for our database to store and update crowdsourcing results for analytics. </p>
+
+                        <h4>Server and Front-end</h4>
+                        <p>Our server is implemented using <a href="https://www.meteor.com/" target="_blank">Meteor</a>,a Node.js framework for fast-building web and mobile apps. The front-end was developed using <a href="https://reactjs.org/" target="_blank">React</a>, a Facebook framework for front-end development. React comes handy because it makes it much easier to connect front-end interactions to back-end updates.</p>
+
+                        <h4>Personalization for users</h4>
+                        <p>The Facebook Privacy Checkup enables users to directly view their currently selected options on Facebook. To fetch and display the current user setting, we collect facebook.com cookies and send them to the user REST API as a POST request. To protect user's data privacy, the cookies are automatically cleared whenever the user exits the application.</p>
+
+                        
+                        <h2>User Testing</h2>
+                        <p>To evaluate the effectiveness of our application, we ran an experimental study with 14 subjects randomly distributed into three conditions. The first condition interacted with the current Facebook interface. Both the second and the third condition interacted with our tool, but subjects in the last condition were also able to see the responses of other users using the plugin. To populate the application with initial data for the third condition, we crowdsourced responses from Amazon Mechanical Turk. In this study we collected both quantitative and qualitative data, including number of privacy settings changed and ease of use.</p>
+                        <img src="../images/coding/nt/nt3.png" alt="" class="img-responsive"/>
+
+
+                        
+                       
+             
+                                
+                    </section>
+                </article>
+            </section>
+
+
+        
+
+
+           
+        </main> 
+
+        <footer role="footer">
+            <ul role="social-icons">
+                <li><a href="http://www.github.com/rosieswj" target="_blank"><i class="fa fa-git" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.linkedin.com/in/rosiesun" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="http://unerosie.tumblr.com/" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>  
+            </ul>
+            <p class="copy-right">&copy; Rosie Sun </p>
+        </footer>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+        <script src="../js/jquery.min.js" type="text/javascript"></script>
+
+        <!-- custom -->
+
+        <script src="../js/nav.js" type="text/javascript"></script>
+
+        <script src="../js/custom.js" type="text/javascript"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+
+        <script src="../js/effects/masonry.pkgd.min.js"  type="text/javascript"></script>
+
+        <script src="../js/effects/imagesloaded.js"  type="text/javascript"></script>
+
+        <script src="../js/effects/classie.js"  type="text/javascript"></script>
+
+        <script src="../js/effects/AnimOnScroll.js"  type="text/javascript"></script>
+
+        <script src="../js/effects/modernizr.custom.js"></script>
+
+        <!-- jquery.countdown -->
+
+        <script src="../js/html5shiv.js" type="text/javascript"></script>
+
+    </body>
+
+</html>
