@@ -9,7 +9,7 @@
         <meta name="description" content="Rosie Sun - Carngie Mellon University">
         <meta name="author" content="Rosie Sun">
 
-        <title>Docs | ROSIE SUN</title>
+        <title>Finance Data Visualization Framework | Rosie Sun </title>
         <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 
           <!-- style -->
@@ -45,75 +45,41 @@
 
         <main role="main-inner-wrapper" class="container">
             <section class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></section> 
-            
             <section class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
                 <article role="pge-title-content" >
-                        <header>
-                            <h2><span id="name">Docs</span></h2><br>
-                            <p>for self-documenting purpose [since imdb has a really bad ui...</p>
-                        </header>
+                    <header>
+                        <h3><span id="name">Finance Data Visualization Framework </span></h3>
+                    </header>
                 </article>
-                <br>
-                <article class="about-content">
-                    <h4>Social issues and Economics </h4>
-                    <ul> 
-                        <li>13th</li>
-                        <li>Miss Representation  </li>
-                        <li>The keepers </li>
-                        <li>The Stanford Prison Experiment </li>
-                        <li>Bridegroom</li>
-                        <li>Food, Inc. </li>
-                        <li>Amanda Knox</li>
-                        <li>I'm Jane Doe</li>
-                        <li>The Hunting Ground</li>
-                    </ul>
+                <article class="project-content">
+                    <section>
+                        <p> <i>
+                            <b>Skills:</b> Framework Design, API Design, Plugin and GUI implementation, Unit testing
+                            <br><b>Time:</b> March - April 2018
+                            <br><b>Team:</b> Jerry Peng, Andy Shen</i>
+                        </p>
+    
+                        <h2>Overview</h2>
 
-                    <h4>Fashion </h4>
-                    <ul> 
-                        <li>Marc Jacobs & Louis Vuitton </li>
-                        <li>Dior et moi</li>
-                        <li>The First Monday in May </li>
-                        <li>Mademoiselle C </li>
-                        <li>Visionaries: Tom Ford</li>
-                        <li>McQueen and I</li>
-                        <li>The Secret World of Haute Couture</li>
-                        <li>The September Issue</li>
-                        <li>Fresh Dressed</li>
-                        <li>Yves Saint Laurent: His Life and Times </li>
-                    </ul>
 
-                    <h4>Culture</h4>
-                    <ul> 
-                        <li>Hip-Hop Evolution </li>
-                        <li>The Toys that Made Us </li>
-                        <li>Rapture</li>
-                        <li>Diana: In Her Own Words </li>
-                        <li>Secrets of the Superbrands </li>
-                        <li>The American Meme</li>
-                        <li>Scatter My Ashes at Bergdorf's</li>
-                        <li>Live Forever: The Rise and Fall of Brit Pop </li>
-                        <li>BBC: Perfume</li>
-                        <li>Explained</li>
-                        <li>Sneakerheadz</li>
-                    </ul>
-
-                    <h4>Arts</h4>
-                    <ul> 
-                        <li>How Art Made the World</li>
-                        <li>Renaissance Revolution</li>
-                        <li>Simon Schama's Power of Art </li>
-                    </ul>
-
-                    <h4>Food and Travel</h4>
-                        <ul> 
-                            <li>Chef's Table </li>
-                            <li>BBC Horizon: Sugar vs Fat</li>
-                            <li>Horizon: Eat, Fast and Live Longer </li>
-                            <li>Jiro Dreams of Sushi </li></li>
-                        </ul>
-
+                        <p> In this project, I worked in a team to design and implement an <b>extensible visualization and analysis framework in Java</b>. We have chosen our domain to be financial data. Some of the possible extensions we considered were graphs of the historic trends of a stock,  comparisons across different types of stocks, chart of distribution of personal portfolio, etc. </p>
+                        <img src="../images/coding/fm/fm1.png" alt="" class="img-responsive"/>     
+                        <h2></h2>
+                        <p>The framework has two plugin interfaces: a Data Plugin interface and a Display Plugin interface. The Data Plugin has two important methods: summarize and predict.The summarize method takes in the user-inputted historical stock data and then creates a summary table of important information from that data. The predict method extrapolates the data given to a future period and returns a table of predicted values. The display plugins define how the visualization appears onto the framework GUI.</p>
+                        <img src="../images/coding/fm/fm2.png" alt="" class="img-responsive"/>  
+                        <p>From this project, I obtained hands-on experience of designing and implementing a black-box framework. To ensure that the framework can support a variety of data sources and display options that users can add later, we spent a lot of time thinking about what we should include/exclude in the API to allow extensibility.  </p> 
+                       
+             
+                              
+                    </section>
                 </article>
             </section>
+
+
+        
+
+
+           
         </main> 
 
         <footer role="footer">

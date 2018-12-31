@@ -1,18 +1,7 @@
 
-/*@import url('https://fonts.googleapis.com/css?family=Cabin|Nunito+Sans|Oxygen');*/
-/*@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,600|Crimson+Text');
-*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Crimson+Text|Frank+Ruhl+Libre');
 
-
-/*
-font-family: 'Crimson Text', serif;
-font-family: 'Cabin', sans-serif;*/
-/*font-family: 'Lato', sans-serif;
-font-family: 'Oxygen', sans-serif;
-font-family: 'Cabin', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-*/
 /*****************************************************************************************/
 html {
 
@@ -262,9 +251,11 @@ main[role="main-inner-wrapper"] .about-content p{ font-size:16px; line-height:30
 
 main[role="main-inner-wrapper"] .about-content p a { color: #dd2a49;}
 
+main[role="main-inner-wrapper"] .about-content h4 { color: #c18c88;}
+
 main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#c5b4b3; color: #fff; text-decoration: none;}
 
-main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
+main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:20px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content li{ margin: 8px; }
 
