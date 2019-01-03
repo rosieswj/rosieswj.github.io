@@ -422,7 +422,9 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 #anim {
 	margin: auto;
 	text-align: center;
+	height: 50vh;
 }
+
 circle {
   transform-origin: 500px 500px;
   opacity: 0.30;
@@ -471,7 +473,7 @@ circle {
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
 svg {
   fill: #E7B9C4;
-  width: 100vh;
-  height: 60vh;
+  width: 80vh;
+  height: 50vh;
 }
 
