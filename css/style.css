@@ -404,3 +404,74 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 	width: 100%;
 }
 
+.main-link {
+	background-color: #f44336;
+	color: white;
+	padding: 38px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin:20px;
+}
+
+#main-links {
+	margin: auto;
+	text-align: center;
+}
+
+#anim {
+	margin: auto;
+	text-align: center;
+}
+circle {
+  transform-origin: 500px 500px;
+  opacity: 0.30;
+  animation: breathe 12s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
+  -webkit-animation: breathe 12s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
+  transform: rotate(var(--angle))   translate(110px, 0);
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: rotate(var(--angle)) translate(0px, 0)
+  }
+  45%,
+  55% {
+    transform: rotate(var(--angle)) translate(225px, 0)
+  }
+}
+
+@-webkit-keyframes breathe {
+  0%,
+  100% {
+    transform: rotate(var(--angle)) translate(0px, 0)
+  }
+  45%,
+  55% {
+    transform: rotate(var(--angle)) translate(225px, 0)
+  }
+}
+
+.rose {
+  transform-origin: 500px 500px;
+  animation: turn 100s linear infinite;
+  -webkit-animation: turn 100s linear infinite;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+svg {
+  fill: #E7B9C4;
+  width: 100vh;
+  height: 60vh;
+}
+
