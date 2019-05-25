@@ -107,7 +107,7 @@ a:focus, img:focus, button:focus, .btn:focus {
 	text-shadow:none;
 }
 
-::selection {background-color: #b03740;color: #fff;text-shadow: none;}
+::selection {background-color: #bccedd; color: #fff;text-shadow: none;}
 
 /*@font-face {'Times New Roman', serif;}*/
 
@@ -195,13 +195,14 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ 
 	display:block; 
 	font-size:60px; 
-	color:#E5B5B5; 
+	color:#b5d6e5; 
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h3 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h3 span{ 
 	display:block; 
 	font-size:40px; 
-	color:#E5B5B5; 
+	/*color:#E5B5B5; */
+	color:#b5d6e5; 
 	font-weight:300;
 }
 
@@ -209,7 +210,8 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="ma
 	font-size:1.1em; 
 	line-height:0.6em; 
 	font-weight:300;
-	color:#454545}
+	color:#b5d6e5; 
+}
 
 /*===== footer ===*/
 
@@ -242,18 +244,21 @@ footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1
 
 /*===== About ===*/
 /*#db7d84*/
-/*border:3px solid rgba(150, 132, 130, 0.6); */
+/*border:3px solid rgba(150, 132, 130, 0.6); 
+ background-color:rgba(238, 159, 157, 0.09)*/
 
-main[role="main-inner-wrapper"] .about-content{ background-color:rgba(238, 159, 157, 0.09) ; 
+main[role="main-inner-wrapper"] .about-content{ background-color:rgba(167, 197, 207, 0.09) ; 
 	padding-top:20px; padding-left:40px; padding-right:40px; padding-bottom:20px}
 
-main[role="main-inner-wrapper"] .about-content p{ font-size:16px; line-height:30px; color:rgb(150, 132, 130); padding-bottom:20px}
+main[role="main-inner-wrapper"] .about-content p{ font-size:16px; line-height:30px; color:rgb(156, 156, 156); padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content p a { color: #dd2a49;}
 
 main[role="main-inner-wrapper"] .about-content h4 { color: #c18c88;}
 
-main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#c5b4b3; color: #fff; text-decoration: none;}
+/*c5b4b3*/
+
+main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#95b6c5; color: #fff; text-decoration: none;}
 
 main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:20px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
 
@@ -404,9 +409,6 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 	width: 100%;
 }
 
-.graphic {
-	background-color: transparent;
-}
 
 .main-link {
 	background-color: #f44336;
