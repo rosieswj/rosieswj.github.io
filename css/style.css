@@ -131,7 +131,7 @@ header[role="header"] nav ul > li{ font-weight:400; font-size:2em; display:block
 
 header[role="header"] nav ul > li > a{ display:block; line-height:2em; color:#404040}
 
-header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#ee9f9d}
+header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#add8e6}
 
 header[role="header"] nav #menu-button {
 	width: 30px;
@@ -152,7 +152,7 @@ width: 100%;background: #fff;opacity: 1;left: 0;
 
 transform: rotate(0deg);-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-o-transition: .25s ease-in-out;transition: .25s ease-in-out;}
 
-header[role="header"] nav #menu-button span {background: #ee9f9d;}
+header[role="header"] nav #menu-button span {background: #add8e6;}
 
 header[role="header"] nav #menu-button span:nth-child(1) {top:0px;}
 
@@ -227,7 +227,7 @@ footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:upper
 
 footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
 
-footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#ee9f9d}
+footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#add8e6}
 
 footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:center; padding-bottom:40px;}
 
@@ -237,7 +237,7 @@ footer[role="footer"] ul[role="social-icons"] > li > a { display:block; width:42
  background-color:#bbbbbb; color:#fff; line-height:42px; font-size:20px; border-radius:100%; 
  text-align:center}
 
-footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#ee9f9d}
+footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#add8e6}
 
 footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1.2em; 
 	line-height:13px; color:#9c9c9c}
@@ -247,20 +247,20 @@ footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1
 /*border:3px solid rgba(150, 132, 130, 0.6); 
  background-color:rgba(238, 159, 157, 0.09)*/
 
-main[role="main-inner-wrapper"] .about-content{ background-color:rgba(167, 197, 207, 0.09) ; 
+main[role="main-inner-wrapper"] .about-content{ background-color:rgba(181, 185, 187, 0.09) ; 
 	padding-top:20px; padding-left:40px; padding-right:40px; padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content p{ font-size:16px; line-height:30px; color:rgb(156, 156, 156); padding-bottom:20px}
 
-main[role="main-inner-wrapper"] .about-content p a { color: #dd2a49;}
+main[role="main-inner-wrapper"] .about-content p a { color: #90cceb;}
 
-main[role="main-inner-wrapper"] .about-content h4 { color: #c18c88;}
+main[role="main-inner-wrapper"] .about-content h4 {color:rgb(124, 150, 165); }
 
 /*c5b4b3*/
 
 main[role="main-inner-wrapper"] .about-content p a:hover { background-color:#95b6c5; color: #fff; text-decoration: none;}
 
-main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:20px; color:rgba(150, 132, 130, 0.9); padding-bottom:20px}
+main[role="main-inner-wrapper"] .about-content ul{ font-size:16px; line-height:20px;  color:rgb(156, 156, 156); ; padding-bottom:20px}
 
 main[role="main-inner-wrapper"] .about-content li{ margin: 8px; }
 
@@ -269,16 +269,16 @@ main[role="main-inner-wrapper"] .project-content{ /*background-color:rgba(238, 1
 
 main[role="main-inner-wrapper"] .project-content p{ font-size:16px; line-height:25px; color:rgb(163, 163, 163); padding-bottom:10px}
 
-main[role="main-inner-wrapper"] .project-content h4{ font-weight: 200; font-size:25px; line-height:25px; color:rgb(195, 155, 155); padding-top:10px}
+main[role="main-inner-wrapper"] .project-content h4{ font-weight: 200; font-size:25px; line-height:25px; color:rgb(155, 180, 195); padding-top:10px}
 
-main[role="main-inner-wrapper"] .project-content h2{ font-size:30px; line-height:30px; color:rgb(150, 132, 130);padding-top:30px}
+main[role="main-inner-wrapper"] .project-content h2{ font-size:30px; line-height:30px; color:rgb(124, 150, 165); padding-top:30px}
 
 
-main[role="main-inner-wrapper"] .project-content p a { color: #dd2a49;}
+main[role="main-inner-wrapper"] .project-content p a { color: #90cceb;}
 
 main[role="main-inner-wrapper"] .project-content p a:hover { background-color:#c5b4b3; color: #fff; text-decoration: none;}
 
-main[role="main-inner-wrapper"] .project-content ul{ font-size:16px; line-height:30px; color:rgba(150, 132, 130, 0.9); padding-bottom:10px;}
+main[role="main-inner-wrapper"] .project-content ul{ font-size:16px; line-height:30px;  color:rgb(156, 156, 156); padding-bottom:10px;}
 
 main[role="main-inner-wrapper"] .project-content li{ margin: 3px; }
 
@@ -333,7 +333,7 @@ article[role="pge-title-content"].contact-header{ padding-bottom:218px}
 
 article[role="pge-title-content"].contact-header p a{ color:#343434; padding-right:34px}
 
-article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-decoration:none}
+article[role="pge-title-content"].contact-header p a:hover{color:#add8e6; text-decoration:none}
 
 .demo-wrapper {width: 100%;margin: 0 auto;height:499px;}
 
@@ -371,7 +371,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 
 .work-details header h2{ color:#666666; font-size:27px; padding-top:60px;font-weight:400; text-align:left;}
 
-.work-details header a{ display:block; color:#ee9f9d; font-size:15px;font-weight:400;padding-top:3px}
+.work-details header a{ display:block; color:#add8e6; font-size:15px;font-weight:400;padding-top:3px}
 
 .work-details header a i{ color:#0d0d0d; padding-left:10px; }
 
@@ -379,7 +379,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 
 .work-details header a:hover{ color:#0d0d0d; text-decoration:none}
 
-.work-details header a:hover i{ color:#ee9f9d}
+.work-details header a:hover i{ color:#add8e6}
 
 .work-details p{font-size:16px; color:#afa8a8; line-height:25px; font-weight:300}
 
@@ -396,7 +396,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#ee9f9d; text-d
 .bog-header h3,.comments-pan h3,.commentys-form h4{ color:#bfafaf;font-weight:400; 
 	padding-bottom:24px; display:block}
 
-.bog-header h2 span{ color:#ee9f9d}
+.bog-header h2 span{ color:#add8e6}
 
 .bog-header h2{ font-size:36px; font-weight:normal}
 
@@ -478,7 +478,7 @@ circle {
 
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
 svg {
-  fill: #E7B9C4;
+  fill: #c8d4dc;
   width: 80vh;
   height: 50vh;
 }
