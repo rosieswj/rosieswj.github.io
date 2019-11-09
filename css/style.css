@@ -7,7 +7,7 @@ html {
 
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	
+
 }
 
 body, body:before, body:after {
@@ -136,9 +136,9 @@ header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-
 header[role="header"] nav #menu-button {
 	width: 30px;
 	font-size: 0;
-	float: left; 
+	float: left;
 	height: 25px;
-	position: relative; 
+	position: relative;
 	z-index:70;
 	margin: 23px 1% 0 7%;
 
@@ -176,41 +176,41 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 }
 /*===== main ===*/
 
-main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { 
+main[role="main-home-wrapper"],main[role="main-inner-wrapper"] {
 	padding-bottom:20px}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ 
-	padding-left: 0; 
+main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{
+	padding-left: 0;
 	text-align: left;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ 
+main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{
 	padding-bottom:5px; }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ 
-	font-size: 1em; 
-	line-height:2em; 
-	color:#404040; 
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{
+	font-size: 1em;
+	line-height:2em;
+	color:#404040;
 	font-weight:400;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ 
-	display:block; 
-	font-size:60px; 
-	color:#b5d6e5; 
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{
+	display:block;
+	font-size:60px;
+	color:#b5d6e5;
 }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h3 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h3 span{ 
-	display:block; 
-	font-size:40px; 
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h3 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h3 span{
+	display:block;
+	font-size:40px;
 	/*color:#E5B5B5; */
-	color:#b5d6e5; 
+	color:#b5d6e5;
 	font-weight:300;
 }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ 
-	font-size:1.1em; 
-	line-height:0.6em; 
+main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{
+	font-size:1.1em;
+	line-height:0.6em;
 	font-weight:300;
-	color:#b5d6e5; 
+	color:#b5d6e5;
 }
 
 /*===== footer ===*/
@@ -234,17 +234,17 @@ footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:c
 footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 10px}
 
 footer[role="footer"] ul[role="social-icons"] > li > a { display:block; width:42px; height:42px;
- background-color:#bbbbbb; color:#fff; line-height:42px; font-size:20px; border-radius:100%; 
+ background-color:#bbbbbb; color:#fff; line-height:42px; font-size:20px; border-radius:100%;
  text-align:center}
 
 footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#add8e6}
 
-footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1.2em; 
+footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1.2em;
 	line-height:13px; color:#9c9c9c}
 
 /*===== About ===*/
 /*#db7d84*/
-/*border:3px solid rgba(150, 132, 130, 0.6); 
+/*border:3px solid rgba(150, 132, 130, 0.6);
  background-color:rgba(238, 159, 157, 0.09)*/
 
 main[role="main-inner-wrapper"] .about-content{ /*background-color:rgba(181, 185, 187, 0.09) ; */
@@ -289,15 +289,15 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure{   background-col
 main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.blog-content figure,section.blog-content figure img,section.blog-content  article{
 	transition-delay: 0s;transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ 
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{
 
-	position:absolute; bottom:-50%; left:0; right:0; background-color:#c5b4b3; margin:0 69px; 
+	position:absolute; bottom:-50%; left:0; right:0; background-color:#c5b4b3; margin:0 69px;
 	text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ 
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{
 	font-size:21px; line-height:22px; font-weight:300}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ 
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{
 	text-transform:uppercase; font-size:13px; line-height:14px; font-weight:bold}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#c5b4b3; color:#FFF}
@@ -312,12 +312,12 @@ article[role="pge-title-content"].blog-header{ padding-bottom:218px}
 
 section.blog-content{ margin-bottom:29px}
 
-section.blog-content figure{ overflow:hidden; position:relative; background-color: 
+section.blog-content figure{ overflow:hidden; position:relative; background-color:
 	rgba(255,255,255,0.4); cursor:pointer; }
 
-section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:500; 
-	font-size:18px; line-height:25px; text-transform:uppercase; display:block; 
-	background-color:#d9d4d4; width:100px; position:absolute; 
+section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:500;
+	font-size:18px; line-height:25px; text-transform:uppercase; display:block;
+	background-color:#d9d4d4; width:100px; position:absolute;
 	left:0; top:0; padding-top:4%; padding-bottom:4%; z-index:50}
 
 section.blog-content figure .post-date span{ font-size:30px; line-height:35px; display:block}
@@ -345,7 +345,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#add8e6; text-d
 
 .contat-from-wrapper{ padding:0 69px; margin-top:108px}
 
-.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb; 
+.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb;
 	background-color:inherit; color:#404040; font-size:21px; line-height:23px; padding-bottom:24px}
 
 .contat-from-wrapper input[type="text"]:focus,.contat-from-wrapper input[type="email"]:focus,.contat-from-wrapper textarea:focus{ border-bottom-color:#9f9e9e}
@@ -360,7 +360,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#add8e6; text-d
 
 .contat-from-wrapper textarea{ border-bottom:1px solid #bbbbbb; border-left:none; border-right:none; border-top:none; height:77px; margin-top:56px}
 
-.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; 
+.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800;
 	letter-spacing:px; background-color:#d65662; margin:41px auto; margin-bottom:0}
 
 .contat-from-wrapper input[type="submit"]:hover{background-color:#888888}
@@ -393,7 +393,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#add8e6; text-d
 
 .bog-header { padding-bottom:30px}
 
-.bog-header h3,.comments-pan h3,.commentys-form h4{ color:#bfafaf;font-weight:400; 
+.bog-header h3,.comments-pan h3,.commentys-form h4{ color:#bfafaf;font-weight:400;
 	padding-bottom:24px; display:block}
 
 .bog-header h2 span{ color:#add8e6}
@@ -402,7 +402,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#add8e6; text-d
 
 .blog-details .enter-content{ margin-top:60px}
 
-.blog-details .enter-content p{ font-size:16px; line-height:30px; 
+.blog-details .enter-content p{ font-size:16px; line-height:30px;
 	font-weight:300; margin-bottom:23px}
 
 #bg {
@@ -465,6 +465,14 @@ circle {
   transform-origin: 500px 500px;
   animation: turn 100s linear infinite;
   -webkit-animation: turn 100s linear infinite;
+}
+
+#temp h1 {
+    color: grey;
+}
+
+#temp {
+    text-align: center;
 }
 
 @keyframes turn {
