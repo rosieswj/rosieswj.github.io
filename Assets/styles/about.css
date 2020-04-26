@@ -1,0 +1,79 @@
+/* ============================================================= */
+/* ===================== about page style only ================== */
+/* ============================================================= */
+
+.about-page-container {
+  height: 200vh;
+  width: 90vw;
+}
+row {
+  width: 100%;
+}
+
+.about-page-box {
+  width: 100%;
+  margin: auto;
+  background-color: #f1f1f1;
+  opacity: 0.8;
+  box-shadow: 10px 10px #999999;
+  padding: 40px;
+  font-size: 1.05em;
+}
+
+.about-content-2 {
+  width: 95%;
+  margin: 12vh auto 12vh auto;
+}
+
+.about-content-2 p {
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.about-page-box-link {
+  box-shadow: 10px 10px #999999;
+  padding: 40px;
+  background-color: #ffddd9;
+  text-align: center;
+  width: 150px;
+  color: black;
+  transition: 0.5s;
+  transform: scaleX(0.2);
+  transform-origin: top;
+}
+
+.about-page-box-link:hover {
+  background-color: #feffe1;
+  color: #ffddd9;
+}
+
+/* create bouncy effect */
+#about-page-box-1 {
+  position: relative;
+  top: -4vw;
+}
+
+#about-page-box-2 {
+  margin-top: 5vh;
+}
+
+#about-page-box-2 ul {
+  margin: auto;
+}
+
+#about-page-box-3 {
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+
+#about-page-box-4 {
+  width: 150px;
+  margin-left: 20vw;
+}
+
+#about-page-box-5 {
+  margin-left: 2vw;
+  position: relative;
+  top: -5vw;
+}

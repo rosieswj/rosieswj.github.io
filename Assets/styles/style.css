@@ -1,0 +1,213 @@
+/* ============================================================= */
+/* ===================== universal rules ========================= */
+/* ============================================================= */
+
+body {
+  font-family: Titillium Web, sans-serif;
+  background-color: #fffefd;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ============================================================= */
+/* ===================== header ================================ */
+/* ============================================================= */
+
+header {
+  width: 100%;
+  text-align: left;
+  font-size: 200%;
+  height: 30vh;
+  background-color: #feeeec;
+}
+
+nav {
+  float: right;
+  width: 30%;
+  margin-top: 10vh;
+  letter-spacing: 0.1em;
+}
+
+nav a {
+  display: inline;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.header-main {
+  padding: 5vh 0 0 10vw;
+}
+
+.header-main li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+/* hover link */
+.soft-hover a {
+  color: #444444;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.soft-hover a:hover {
+  color: white;
+  background: #ffddd9;
+}
+
+.nav-container {
+  width: 100%;
+  text-align: left;
+  font-size: 200%;
+  height: 100px;
+  /* background-color: #ffddd9; */
+}
+
+.page-header {
+  width: 70%;
+  display: inline-block;
+  margin: 0;
+  letter-spacing: 0.1em;
+  padding: 0;
+  border: 0;
+}
+
+.page-header h1 {
+  color: #ffddd9;
+  padding-top: 10vh;
+  margin: 0;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
+.page-header a {
+  color: #ffddd9;
+}
+
+.page-header a:hover {
+  /* color: #e3e1e1; */
+  color: #feffe1;
+  text-decoration: none;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+#links-description li {
+  display: inline;
+  font-size: 38px;
+  padding-right: 8px;
+  font-family: Titillium Web;
+}
+
+/* ============================================================= */
+/* ===================== about content  ======================= */
+/* ============================================================= */
+
+#page-header-home a {
+  color: #ffddd9;
+  transition: 0.5s;
+}
+
+#page-header-home a:hover {
+  color: #feffe1;
+}
+#page-header-home {
+  font-size: 220px;
+  font-family: Titillium Web;
+  padding-top: 70px;
+  margin: 0;
+  position: fixed;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160px;
+  z-index: -100;
+}
+
+.about {
+  width: 100%;
+  margin-top: 170px;
+}
+
+.about-content {
+  width: 600px;
+  margin-left: 400px;
+  /* background-color: #fff4ff; */
+}
+
+.about-content p {
+  color: #555555;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  60% {
+    /* border-color: #fff59a; */
+    border-color: #dba19b;
+  }
+}
+
+@keyframes animatedBackground {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+/* ============================================================= */
+/* ===================== responsive  ======================= */
+/* ============================================================= */
+
+@media only screen and (max-width: 650px) {
+  figure {
+    margin-bottom: 10vh;
+  }
+
+  .cs-row {
+    margin: 0vh;
+  }
+
+  nav {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

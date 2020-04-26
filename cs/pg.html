@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PrivacyGrade | Rosie Sun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Voltaire"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../Assets/animation/css/animsition.min.css" />
+    <link rel="stylesheet" href="../Assets/styles/style.css" />
+    <link rel="stylesheet" href="../Assets/styles/project.css" />
+    <link rel="stylesheet" href="../Assets/styles/cs.css" />
+  </head>
+  <body>
+    <div class="animsition">
+      <div class="progress-container">
+        <div class="progress-bar" id="myProgressBar"></div>
+      </div>
+      <section class="nav-container">
+        <div class="page-header">
+          <h1><a href="../index.html">Rosie</a>>coding</h1>
+        </div>
+        <nav class="soft-hover">
+          <a href="../about.html">about</a>
+          <a href="../cs.html">coding</a>
+          <a href="../design.html">ui/ux</a>
+        </nav>
+      </section>
+      <section class="project-container container">
+        <div class="row cs-row-indiv">
+          <div class="col-sm-12 col-xs-12">
+            <h1>PrivacyGrade Redesign</h1>
+            <h3>CMU Human-Computer Interaction Institute</h3>
+          </div>
+        </div>
+        <!-- end of row  -->
+        <div class="row cs-row-indiv">
+          <div class="col-sm-8 col-xs-12">
+            <p>
+              Many smartphone apps gather and send lots of sensitive data to
+              various third parties around the internet. However, it’s hard for
+              users to know exactly what apps are sending out what data and why.
+            </p>
+            <p>
+              The goal of this project is to improve a part of PrivacyGrade.org,
+              a website that analyzes privacy-related behaviors of andriod apps,
+              to offer users a clearer understanding of 'who' collects data,
+              'what' kinds of user information they are collecting, and 'where'
+              they send the data to. We redesigned and implemented the existing
+              interface and added data visualizations.
+            </p>
+          </div>
+          <div class="col-sm-4 col-xs-12 project-skills">
+            <ul>
+              <li><b>Skills</b></li>
+              <li>Web Development</li>
+              <li>Heuristic Evaluation</li>
+              <li>UI Design</li>
+            </ul>
+            <br />
+            <ul>
+              <li><b>Tools/Languages</b></li>
+              <li>AngularJS</li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of row  -->
+        <div class="row cs-row-indiv">
+          <div class="col-sm-12 col-xs-12">
+            <img
+              src="../Assets/images/cs/pg-before.png"
+              alt="PrivacyGrade Before"
+            />
+            <p>
+              Major changes to the original implementation are focused on the
+              front-end side to improve the usability of the web app:
+            </p>
+            <ul>
+              <li>
+                We re-implemented the layout and the content of Home page based
+                on the new design to highlight the most important information on
+                the landing page. We removed the “All apps” tab since it doesn’t
+                convey much valuable information to the user.
+              </li>
+              <li>
+                We added data visualization section “Where does my data go?” to
+                the Home page. This was implemented with a new library
+                LeaderLine added to the project.
+              </li>
+              <li>
+                We modified the Frequently Asked Questions (FAQs) page based on
+                our findings from research and heuristic evaluation. We also
+                created diagrams to help people better understand the process of
+                how we conducted the analysis.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of row  -->
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="../Assets/scripts/script.js"></script>
+    <script src="../Assets/animation/js/animsition.min.js"></script>
+  </body>
+</html>

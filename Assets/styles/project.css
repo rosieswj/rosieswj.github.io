@@ -1,0 +1,198 @@
+/* ============= individual page row =============*/
+
+.project-container {
+  color: #949494;
+  margin-bottom: 150px;
+}
+
+.project-container b {
+  background: #feffe1;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.project-container li {
+  list-style: none;
+}
+
+.cs-row-indiv a:hover,
+.project-summary-row a:hover {
+  color: #ff9797;
+}
+
+.cs-row-indiv p,
+li {
+  font-size: 1.1em;
+  letter-spacing: 0.01em;
+  line-height: 1.4em;
+}
+
+.cs-row-indiv {
+  width: 95%;
+  margin: auto;
+}
+
+.cs-row-indiv img {
+  width: 95%;
+  margin: 3vh auto;
+}
+
+.cs-row-indiv h3 {
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+  margin-bottom: 4vh;
+}
+
+.cs-row-indiv h1 {
+  letter-spacing: 0.1em;
+  margin-top: 50px;
+}
+
+.cs-row-indiv h2 {
+  padding: 15px 0;
+  margin-top: 30px;
+  letter-spacing: 0.08em;
+}
+
+/* individual rellax sections */
+.project-rellax-row {
+  margin-top: 200px;
+}
+
+.project-rellax {
+  margin: auto;
+  padding: 20px;
+}
+
+.project-aeo {
+  background: #effcff;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.project-skills ul {
+  padding-left: 40px;
+}
+
+.paragraph-start {
+  font-size: 30px;
+  font-weight: 600;
+  color: #b2dbff;
+}
+
+/* ============= carousel =============*/
+
+.carousel-control.left,
+.carousel-control.right {
+  /* remove boostrap carousel gradient effect */
+  background-image: none !important;
+  filter: none !important;
+}
+
+#myCarousel {
+  padding-top: 35px;
+}
+
+/* ============= progress bar =============*/
+
+/* The progress container, no background color initially */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: white;
+  position: fixed;
+  top: 0;
+  /* bottom: 0; */
+  z-index: 1000;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #ffddd9;
+  width: 0%;
+}
+
+/* ============= chrome page =============*/
+.chrome-container {
+  width: 95%;
+  margin: auto;
+}
+
+.chrome-container img {
+  width: 100%;
+}
+
+#chrome-schema,
+#chrome-structure {
+  padding: 30px 0;
+  box-shadow: 10px 10px #c9c9c9;
+  width: 94%;
+}
+#chrome-schema {
+  background: #f2f2f2;
+  margin-top: 300px;
+}
+
+#chrome-structure {
+  background: #f4fbff;
+  margin-top: 100px;
+}
+
+/* ============= spotify =============*/
+
+.rellax-section {
+  width: 90%;
+  margin: 50px auto 0 auto;
+}
+
+.sub-heading {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.main p {
+  font-size: 1.1em;
+  letter-spacing: 0.01em;
+  line-height: 1.4em;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.stakeholder {
+  background: #ecf3f1;
+  height: 200px;
+  padding: 40px 30px 0 30px;
+}
+
+.value-flow {
+  width: 100%;
+}
+
+.pest-grid {
+  height: 400px;
+  box-sizing: border-box;
+  padding: 100px 40px 0 40px;
+}
+
+.pest-grid h2 {
+  font-weight: 300;
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+#pest-1 {
+  background: #fef4f1;
+}
+#pest-2 {
+  background: #daeee7;
+}
+#pest-3 {
+  background: #c9e4d9;
+}
+#pest-4 {
+  background: #ecf3f1;
+}
