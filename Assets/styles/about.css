@@ -26,9 +26,10 @@ row {
 }
 
 .about-content-2 p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 20px;
   letter-spacing: 1px;
+  width: 650px;
 }
 
 .about-page-box-link {
@@ -76,4 +77,11 @@ row {
   margin-left: 2vw;
   position: relative;
   top: -5vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-content-2 p {
+    width: 100%;
+  }
+
 }
