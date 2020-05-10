@@ -208,9 +208,9 @@ nav a {
   nav {
     float: left;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
-
 
   .about-content {
       width: 90%;
@@ -224,12 +224,10 @@ nav a {
     padding-top: 50px;
   }
 
-  .nav-container {
-    padding-top: 180px;
-  }
 
   .about {
     margin-top: 0;
+    padding-top: 180px;
   }
 
 }
