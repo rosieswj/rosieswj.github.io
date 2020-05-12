@@ -132,3 +132,14 @@ figure.drop-effect:hover p {
 figure.drop-effect:hover figcaption::after {
   transition-delay: 0.15s;
 }
+
+@media only screen and (max-width: 768px) {
+  figure {
+    height: 250px;
+  }
+
+  figure.drop-effect h2 {
+    padding-top: 100px;
+  }
+
+}
