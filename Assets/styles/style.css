@@ -4,7 +4,7 @@
 
 body {
   font-family: Titillium Web, sans-serif;
-  background-color: #fffefd;
+  background-color: #e3a5c5;
 }
 
 a {
@@ -137,7 +137,7 @@ nav a {
 #page-header-home {
   font-size: 220px;
   font-family: Titillium Web;
-  padding-top: 70px;
+  padding-top: 75px;
   margin: 0;
   position: fixed;
   font-style: normal;
@@ -148,20 +148,30 @@ nav a {
 
 .about {
   width: 100%;
-  margin-top: 170px;
+  margin-top: 200px;
 }
 
 .about-content {
-  width: 600px;
+  width: 700px;
   margin-left: 400px;
   /* background-color: #fff4ff; */
 }
 
 .about-content p {
-  color: #555555;
+  color: #6c5669;
   letter-spacing: 0.1em;
   font-size: 16px;
   line-height: 1.5em;
+}
+
+.about-icons {
+  font-size: 1.5em;
+  color: #6c5669;
+}
+
+.about-icons:hover {
+  color: #ffddd9;
+  transition: 0.5s;
 }
 
 /* The typing effect */
