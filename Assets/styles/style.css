@@ -4,7 +4,7 @@
 
 body {
   font-family: Titillium Web, sans-serif;
-  background-color: #e3a5c5;
+  background-color: #e5c1cd;
 }
 
 a {
@@ -128,7 +128,8 @@ nav a {
 /* ============================================================= */
 
 #page-header-home a {
-  color: #ffddd9;
+  /*color: #ffeec7;*/
+  color: #F7F7F7;
   transition: 0.5s;
 }
 
@@ -159,7 +160,7 @@ nav a {
 }
 
 .about-content p {
-  color: #6c5669;
+  color: #585858;
   letter-spacing: 0.1em;
   font-size: 16px;
   line-height: 1.5em;
@@ -167,11 +168,11 @@ nav a {
 
 .about-icons {
   font-size: 1.5em;
-  color: #6c5669;
+  color: #F7F7F7;
 }
 
 .about-icons:hover {
-  color: #ffddd9;
+  color: #e3a6ae;
   transition: 0.5s;
 }
 
