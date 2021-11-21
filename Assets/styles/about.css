@@ -2,12 +2,18 @@
 /* ===================== about page style only ================== */
 /* ============================================================= */
 
-.about-page-container {
-  height: 200vh;
-  width: 90vw;
+
+.about-page-header p {
+  width: 60%;
+  margin: auto;
+  padding-top: 15vh;
+  font-size: 1.1em;
+  color: #585858;
+  letter-spacing: .2rem;
 }
-row {
-  width: 100%;
+
+.about-page-header a {
+  text-decoration: underline;
 }
 
 .about-page-box {
@@ -20,68 +26,44 @@ row {
   font-size: 1.05em;
 }
 
-.about-content-2 {
-  width: 95%;
-  margin: 12vh auto 12vh auto;
-}
-
-.about-content-2 p {
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  width: 650px;
-}
-
 .about-page-box-link {
   box-shadow: 10px 10px #999999;
-  padding: 40px;
+  /*padding: 60px;*/
   background-color: #ffddd9;
   text-align: center;
   width: 150px;
-  color: black;
+  height: 120px;
+  color: white;
   transition: 0.5s;
   transform: scaleX(0.2);
   transform-origin: top;
 }
+
+.about-page-box-link i {
+  margin-top: 40px;
+  font-size: 35px;
+}
+
 
 .about-page-box-link:hover {
   background-color: #feffe1;
   color: #ffddd9;
 }
 
-/* create bouncy effect */
-#about-page-box-1 {
-  position: relative;
-  top: -4vw;
-}
-
-#about-page-box-2 {
-  margin-top: 5vh;
-}
-
-#about-page-box-2 ul {
-  margin: auto;
-}
-
 #about-page-box-3 {
-  margin-left: 10vw;
-  margin-top: 2vh;
+  margin-left: 40vw;
+  margin-top: 7vh;
 }
 
 #about-page-box-4 {
-  width: 150px;
-  margin-left: 20vw;
+  margin-left: 55vw;
 }
 
 #about-page-box-5 {
-  margin-left: 2vw;
+  margin-left: 25vw;
   position: relative;
-  top: -5vw;
+  top: -10vw;
 }
 
 @media only screen and (max-width: 768px) {
-  .about-content-2 p {
-    width: 100%;
-  }
-
 }
