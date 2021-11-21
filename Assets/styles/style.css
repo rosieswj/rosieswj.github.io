@@ -7,13 +7,16 @@ body {
   background-color: #e5c1cd;
 }
 
+
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
+  transition: 0.5s;
+  color: #e3a6ae;
 }
 
 h2,
@@ -47,12 +50,6 @@ nav {
   letter-spacing: 0.1em;
 }
 
-nav a {
-  display: inline;
-  padding: 15px;
-  font-size: 16px;
-}
-
 .header-main {
   padding: 5vh 0 0 10vw;
 }
@@ -77,23 +74,20 @@ nav a {
 
 .nav-container {
   width: 100%;
-  text-align: left;
-  font-size: 200%;
   height: 100px;
-  /* background-color: #ffddd9; */
 }
 
 .page-header {
   width: 70%;
   display: inline-block;
-  margin: 0;
+  margin: 0 50px;
   letter-spacing: 0.1em;
   padding: 0;
   border: 0;
+  color: white;
 }
 
 .page-header h1 {
-  color: #ffddd9;
   padding-top: 10vh;
   margin: 0;
   font-family: Titillium Web;
@@ -106,10 +100,10 @@ nav a {
   color: #ffddd9;
 }
 
-.page-header a:hover {
-  /* color: #e3e1e1; */
-  color: #feffe1;
+a:hover {
   text-decoration: none;
+  transition: 0.5s;
+  color: #e3a6ae;
 }
 
 .bold-text {
@@ -127,15 +121,12 @@ nav a {
 /* ===================== about content  ======================= */
 /* ============================================================= */
 
-#page-header-home a {
-  /*color: #ffeec7;*/
+#page-header-home {
   color: #F7F7F7;
   transition: 0.5s;
+  color: white;
 }
 
-#page-header-home a:hover {
-  color: #feffe1;
-}
 #page-header-home {
   font-size: 220px;
   font-family: Titillium Web;
@@ -220,14 +211,11 @@ nav a {
   nav {
     float: left;
     width: 100%;
-    margin-bottom: 20px;
-    margin-top: 10px;
   }
 
   .about-content {
       width: 90%;
       margin: auto;
-      /* background-color: #fff4ff; */
   }
 
   #page-header-home {
