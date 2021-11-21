@@ -167,6 +167,11 @@ a:hover {
   transition: 0.5s;
 }
 
+#about-link {
+  color: #585858;
+}
+
+
 /* The typing effect */
 @keyframes typing {
   from {
